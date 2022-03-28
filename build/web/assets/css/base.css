@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+:root {
+    --header-height: 80px;
+    --search-box-height: 47px;
+    --search-box-width: 600px;
+    --color-heading: #222222;
+    --color-primary: #f65e38;
+    --primary: #08aeea;
+    --secondary: #13D2B8;
+    --purple: #bd93f9;
+    --pink: #ff6bcb;
+    --blue: #8be9fd;
+    --gray: #333;
+    --font: "Poppins", sans-serif;
+    --gradient: linear-gradient(40deg, #ff6ec4, #7873f5);
+    --shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+}
+
+* {
+    box-sizing: inherit;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.margin{
+    margin-top: 80px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.ml-12 {
+    margin-left: 12px;
+}
+
+.text-left {
+    text-align: left!important;
+}
+
+html {
+    box-sizing: border-box;
+    line-height: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+a {
+    transition: all 0.3s;
+    color: #222222;
+}
+
+@-webkit-keyframes coccoc-alo-circle-anim {
+    0% {
+        transform: rotate(0) scale(.5) skew(1deg);
+        opacity: .1
+    }
+    30% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .5
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: .1
+    }
+}
+
+@keyframes coccoc-alo-circle-anim {
+    0% {
+        transform: rotate(0) scale(.5) skew(1deg);
+        opacity: .1
+    }
+    30% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .5
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: .1
+    }
+}
+
+@-webkit-keyframes coccoc-alo-circle-fill-anim {
+    0% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .2
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: .2
+    }
+    100% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .2
+    }
+}
+
+@keyframes coccoc-alo-circle-fill-anim {
+    0% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .2
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: .2
+    }
+    100% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .2
+    }
+}
+
+@-webkit-keyframes coccoc-alo-circle-img-anim {
+    0% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+    10% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    20% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    30% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    40% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+}
+
+@keyframes coccoc-alo-circle-img-anim {
+    0% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+    10% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    20% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    30% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    40% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+}
+
+
+/* You can remove these code below*/
+
+* {
+    box-sizing: border-box;
+}
+
+input,
+button,
+textarea {
+    border: 0;
+    outline: none;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+a:hover{
+    color: #f65e38;
+}
+
+
+/* Main code */
+
+.pagi {
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagi-item {
+    margin: 0 24px;
+    font-size: 19.2px;
+    color: #999;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.pagi-item.is-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.pagi-item:hover,
+.pagi-item.is-active {
+    color: var(--color-primary);
+}
+
+.btn {
+    color: #fff;
+    background-color: var(--color-heading);
+    padding: 2px;
+    font-weight: 500;
+}
+
+
+/* You can remove these code below*/
+
+:root {
+    --primary: #08aeea;
+    --secondary: #13D2B8;
+    --purple: #bd93f9;
+    --pink: #ff6bcb;
+    --blue: #8be9fd;
+    --gray: #333;
+    --font: "Poppins", sans-serif;
+    --gradient: linear-gradient(40deg, #ff6ec4, #7873f5);
+    --shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input,
+button,
+textarea {
+    border: 0;
+    outline: none;
+}
+
+
+/* Main code */
+
+.tabs1 {
+    display: flex;
+    margin-left: -64px;
+    width: 25%;
+}
+
+.tabs1 .tab-item.active {
+    color: var(--color-primary);
+    border-bottom-color: currentColor;
+}
+
+.tabs1 .tab-item {
+    white-space: nowrap;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #999;
+    font-weight: 500;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: inherit;
+    border-bottom: 1px solid transparent;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.alert-error {
+    color: red;
+    font-weight: 400;
+    font-size: 14px;
+}
